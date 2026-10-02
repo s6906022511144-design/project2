@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="infex.html">ลงทะเบียน</a></li>
+            <li><a href="contact.html">สรุปการลงทะเบียน</a></li>
+        </ul>
+    </nav>
+    <form>
+        <h1>แบบฟอร์มการสมัครเรียน</h1>
+        <h2>ข้อมูลส่วนตัว</h2>
+        <label for="name">ชื่อ:</label><br>
+        <input type="text" id="name" name="name"  placeholder="กรุณาใส่ชื่อ..."required><br><br>
+        <label for="surname">นามสกุล:</label><br>
+        <input type="text" id="surname" name="surname" placeholder="กรุณาใส่นามสกุล..." required><br><br>
+        <label for="national-id">หมายเลขบัตรประชาชน:</label><br>
+        <input type="text" id="national-id" name="national-id" placeholder="กรุณาใส่หมายเลขบัตรประชาชน..." required><br><br>
+        <label for="email">อีเมล:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@example.com" required><br><br>
+        <label for="phone">เบอร์โทรศัพท์:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="กรุณาใส่เบอร์โทรศัพท์..." required ><br><br>
+
+        <section required>
+            <label for="Gender">เพศ</label><br>
+            <select id="Gender" name="Gender" required>
+                <option value="">--กรุณาเลือก--</option>
+                <option value="male">ชาย</option>
+                <option value="female">หญิง</option>
+            </select>
+        </section><br>
+
+        <label for="weight">น้ำหนัก (kg):</label><br>
+        <input type="number" id="weight" name="weight"  placeholder="กรุณาใส่น้ำหนัก..." required><br><br>
+        <label for="height">ส่วนสูง (cm):</label><br>
+        <input type="number" id="height" name="height" placeholder="กรุณาใส่ส่วนสูง..." required><br><br>
+
+        <label for="birthdate">วันเกิด:</label><br>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <label for="address">ที่อยู่:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required placeholder="กรุณาใส่ที่อยู่..."></textarea><br><br>
+
+        <h2>ข้อมูลผู้ปกครอง</h2>
+        <section required>
+            <label for="Leveing_with">อาศัยอยู่กับ:</label><br>
+            <select id="Leveing_with" name="Leveing_with" required>
+                <option value="">--กรุณาเลือก--</option>
+                <option value="father">พ่อ</option>
+                <option value="mother">แม่</option>
+                <option value="patfather">ปู่</option>
+                <option value="matfather">ย่า</option>
+                <option value="patmother">ตา</option>
+                <option value="matmother">ยาย</option>
+                <option value="patuncle">ลุง</option>
+                <option value="matuncle">ป้า</option>
+                <option value="pat aunt">น้า</option>
+                <option value="mat aunt">อา</option>
+            </select>
+        </section><br>
+        <label for="name">ชื่อ:</label><br>
+        <input type="text" id="name" name="name"  placeholder="กรุณาใส่ชื่อ..."required><br><br>
+        <label for="surname">นามสกุล:</label><br>
+        <input type="text" id="surname" name="surname" placeholder="กรุณาใส่นามสกุล..." required><br><br>
+        <label for="national-id">หมายเลขบัตรประชาชน:</label><br>
+        <input type="text" id="national-id" name="national-id" placeholder="กรุณาใส่หมายเลขบัตรประชาชน..." required><br><br>
+        <label for="phone">เบอร์โทรศัพท์:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="กรุณาใส่เบอร์โทรศัพท์..." required ><br><br>
+        <label for="salary">รายได้ต่อเดือน:</label><br>
+        <input type="number" id="salary" name="salary" placeholder="กรุณาใส่รายได้..." required><br><br>
+        <label for="address">ที่อยู่:</label><br>
+
+        <h2>ข้อมูลบิดา</h2>
+        <label for="name">ชื่อ:</label><br>
+        <input type="text" id="name" name="name"  placeholder="กรุณาใส่ชื่อ..."required><br><br>
+        <label for="surname">นามสกุล:</label><br>
+        <input type="text" id="surname" name="surname" placeholder="กรุณาใส่นามสกุล..." required><br><br>
+        <label for="national-id">หมายเลขบัตรประชาชน:</label><br>
+        <input type="text" id="national-id" name="national-id" placeholder="กรุณาใส่หมายเลขบัตรประชาชน..." required><br><br>
+        <label for="phone">เบอร์โทรศัพท์:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="กรุณาใส่เบอร์โทรศัพท์..." required ><br><br>
+        <label for="salary">รายได้ต่อเดือน:</label><br>
+        <input type="number" id="salary" name="salary" placeholder="กรุณาใส่รายได้..." required><br><br>
+        <label for="address">ที่อยู่:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required placeholder="กรุณาใส่ที่อยู่..."></textarea><br><br>
+        <section required>
+            <label for="Marital_Status">สถานะสมรส</label><br>
+            <select id="Marital_Status" name="Marital_Status" required>
+                <option value="">--กรุณาเลือก--</option>
+                <option value="Stay">อยู่ด้วยกัน</option>
+                <option value="Separate">แยกกันอยู่</option>
+                <option value="Divorced">หย่าร้าง</option>
+            </select>
+        </section><br>
+
+        <h2>ข้อมูลมารดา</h2>
+        <label for="name">ชื่อ:</label><br>
+        <input type="text" id="name" name="name"  placeholder="กรุณาใส่ชื่อ..."required><br><br>
+        <label for="surname">นามสกุล:</label><br>
+        <input type="text" id="surname" name="surname" placeholder="กรุณาใส่นามสกุล..." required><br><br>
+        <label for="national-id">หมายเลขบัตรประชาชน:</label><br>
+        <input type="text" id="national-id" name="national-id" placeholder="กรุณาใส่หมายเลขบัตรประชาชน..." required><br><br>
+        <label for="phone">เบอร์โทรศัพท์:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="กรุณาใส่เบอร์โทรศัพท์..." required ><br><br>
+        <label for="salary">รายได้ต่อเดือน:</label><br>
+        <input type="number" id="salary" name="salary" placeholder="กรุณาใส่รายได้..." required><br><br>
+        <label for="address">ที่อยู่:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required placeholder="กรุณาใส่ที่อยู่..."></textarea><br><br>
+        <section required>
+            <label for="Marital_Status">สถานะสมรส</label><br>
+            <select id="Marital_Status" name="Marital_Status" required>
+                <option value="">--กรุณาเลือก--</option>
+                <option value="Stay">อยู่ด้วยกัน</option>
+                <option value="Separate">แยกกันอยู่</option>
+                <option value="Divorced">หย่าร้าง</option>
+            </select>
+        </section><br>
+
+        <section required>
+            <h2>ข้อมูลการศึกษา</h2>
+            <label for="school">กำลังศึกษาระดับชั้นที่:</label><br>
+            <input type="text" id="school" name="school" placeholder="กรุณาใส่ระดับชั้น..." required><br><br>
+            <label for="school">สถานศึกษาที่ศึกษาอยู่หรือเรียนจบแล้ว:</label><br>
+            <input type="text" id="school" name="school" placeholder="กรุณาใส่ชื่อสถานศึกษา..." required><br><br>
+            <label for="school">ปีที่จบการศึกษา:</label><br>
+            <input type="text" id="school" name="school" placeholder="กรุณาใส่ปีที่จบการศึกษา..." required><br><br>
+            <label for="school">สาขาวิชา:</label><br>
+            <input type="text" id="school" name="school" placeholder="กรุณาใส่สาขาวิชา..." required><br><br>
+
+            <label for="school">วุฒิการศึกษา:</label><br>
+                <select id="education-level" name="education-level" required>
+                    <option value="">--กรุณาเลือก--</option>
+                    <option value="high-school">กศน.</option>
+                    <option value="high-school">ม.6</option>
+                    <option value="diploma">ปวช.</option>
+                    <option value="diploma">ปวส.</option>
+                    <option value="bachelor">ปริญญาตรี</option>
+                    <option value="bachelor">ปริญญาโท</option>
+                    <option value="bachelor">ปริญญาเอก</option>
+                </select>
+
+            <label for="school" class="avg">เกรดเฉลี่ยรวม:</label><br>
+            <input type="text" id="school" name="school" placeholder="กรุณาใส่เกรดเฉลี่ย..." required><br><br>
+
+            <label for="education">วุฒิที่ใช้สมัคร:</label><br>
+            <select id="education" name="education" required>
+                <option value="">--กรุณาเลือก--</option>
+                <option value="high-school">กศน.</option>
+                    <option value="high-school">ม.6</option>
+                    <option value="diploma">ปวช.</option>
+                    <option value="diploma">ปวส.</option>
+                    <option value="diploma">อนุปริญญา</option>
+            </select>
+        </section><br>
+
+            <label for="education">กรุณาเลือกสาขาวิชา:</label><br>
+            <select id="education" name="education" required>
+                <option value="">--กรุณาเลือก--</option>
+                <option value="bachelor">ปริญญาตรี</option>
+                <option value="master">ปริญญาโท</option>
+                <option value="doctorate">ปริญญาเอก</option>
+            </select>
+        </section><br>
+
+        <section required>
+            <label for="major">สาขาวิชา:</label><br>
+            <select id="major" name="major" required>
+                <option value="">--กรุณาเลือก--</option>
+                <option value="computer-science">IT</option>
+                <option value="engineering">ITI</option>
+                <option value="business">ITT</option>
+                <option value="computer-science">INE</option>
+                <option value="engineering">INET</option>
+            </select>
+        </section><br>
+        
+        <label for="Image" class="peple">กรุณาอัปโหลดรูปถ่ายสำเนาบัตรประชาชน:</label><br>
+        <input type="file" id="Image" name="Image" accept="image/*" required>
+        <label for="Image" class="addHome">กรุณาอัปโหลดรูปถ่ายสำเนาทะเบียนบ้าน:</label><br>
+        <input type="file" id="Image" name="Image" accept="image/*" required> 
+         
+
+        <button type="submit">ส่งแบบฟอร์ม</button>
+    </form>
+</body>
+</html>
